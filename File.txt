@@ -11,6 +11,5 @@ First make a new repository on github
 Branch is an environemnt where code can be wrriten or read from , it helps to divide your live code base with a testing one.
 Here the main code base is called "main".
 
-1. git checkout -b new-branch-name --> To make a new branch.
-2. git branch-name --> To select a branch.
-3. git push origin new-branch --> To push the new branch to github.
+4. git checkout -b new-branch-name --> To make a new branch.
+5. git branch-name --> To select a branch.
