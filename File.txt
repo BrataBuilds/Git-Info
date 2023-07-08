@@ -1,4 +1,4 @@
-Some useful git fucntions I learnt ;
+Some useful git fucntions I learnt :
 Note to self: Use gitbash and not powershell
 First make a new repository on github
 
