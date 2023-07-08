@@ -1,5 +1,5 @@
 Some useful git fucntions I learnt ;
-Note to self: USe gitbash and not powershell
+Note to self: Use gitbash and not powershell
 First make a new repository on github
 
 1. git remote add origin <repository url here> --> To initalize git to look at the repository
