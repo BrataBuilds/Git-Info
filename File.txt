@@ -1,12 +1,16 @@
 Some useful git fucntions I learnt ;
-Note to self: USe gitbash and not powershell
+Note to self: Use gitbash and not powershell
 First make a new repository on github
 
-1. git remote add origin <repository url here> --> To initalize git to look at the repository
-2. git push -u  origin main --> To upload current files to the repository at the main branch 
-3. What is a branch?
+1. git remote add origin <repository url here> --> To initalize git to look at the repository/
+2. git add filename or .(meanes everything) --. Add the files.
+3. git commit -m "commit-message" --> Commits the changes to git.
+4. git push -u  origin main --> To upload current files to the repository at the main branch.
+
+- What is a branch?
 Branch is an environemnt where code can be wrriten or read from , it helps to divide your live code base with a testing one.
 Here the main code base is called "main".
 
-4. git checkout -b new-branch-name --> To make a new branch.
-5. git branch-name --> To select a branch.
+1. git checkout -b new-branch-name --> To make a new branch.
+2. git branch-name --> To select a branch.
+3. git push origin new-branch --> To push the new branch to github.
