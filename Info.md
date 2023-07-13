@@ -28,3 +28,21 @@ Here the main code base is called "main".
 - `git remote -v` : Get remote status 
 - `git remote remove origin` : Removes the existing git repo connected to the folder.
 
+## Git Ignore
+A .gitignore file is a text file used by the version control system Git to specify which files and directories should be ignored and not tracked. 
+
+```
+# Comments start with a hash symbol
+
+# Ignore files with the .pyc extension
+*.pyc
+
+# Ignore the "secret.txt" file
+secret.txt
+
+# Ignore the "logs" directory and its contents
+logs/
+```
+
+In VS Code you will find that the file in the explorer tab is greyed out.
+
