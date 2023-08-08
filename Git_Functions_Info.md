@@ -18,7 +18,7 @@ If you provided the wrong folder type :
 6. `git push -u  origin main` : To upload current files to the repository at the main branch.
 
 ## Branch
-Branch is an environemnt where code can be wrriten or read from , it helps to divide your live code base with a testing one.
+Branch is an environment where code can be written or read from , it helps to divide your live code base with a testing one.
 Here the main code base is called "main".
 
 - `git checkout -b new-branch-name` : To make a new branch.
@@ -45,4 +45,8 @@ logs/
 ```
 
 In VS Code you will find that the file in the explorer tab is greyed out.
-
+## Remote Repositories 
+You can remotely access code from anywhere around the world by connecting to a remote repository either via the VS Code client or [web]("https://vscode.dev")
+After you have made changes simply type : 
+- `git fetch origin main ` : To get all the remote changes
+- `git merge origin main ` :  To merge changes from local and remote repository. Note please make sure to rectify any merge conflicts to avoid data loss.
