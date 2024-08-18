@@ -1,21 +1,18 @@
-# Some useful git Functions (I learnt)
-Note to self: Use gitbash and not powershell
+# Some useful git Functions
+## Uploading all the files in a folder to github 
+1. Make a new empty repository on github.com.
+2. Copy paste the commands shown. 
 
-## Uploading all the files in a folder to github
-1. Make a folder called Github and only add the files you wanna upload.
-2. Make a new empty repository on github.com.
-3. Copy paste the commands shown. 
-
-## 4. Incase you mess things up here is the list of commands : 
+## Incase you mess things up here is the list of commands to upload your project to github : 
 
 1. `git init` : Initializes the current folder to be 'gitted'.
-If you provided the wrong folder type :
-`rm -rf .git` : Deletes the .git file and now you are safe (Hopefully!)
-2. `git remote add origin <repository url here>` : Connect git to your repository.
+If you provided the wrong folder, type :
+`rm -rf .git` : Deletes the .git file and resets `git init`, if this command doesn't work then delete repo and start over.
+2. `git remote add origin <repository url here>` : Connects git to your repository.
 3. `git add filename or .`(means everything) : Add the files.
-4. `git branch -main `: Etlling Git to look at the main branch.
-5. `git commit -m "commit-message"` : Commits the changes to git, commit message compulsory
-6. `git push -u  origin main` : To upload current files to the repository at the main branch.
+4. `git branch -main `: Sets your current branch to "main".
+5. `git commit -m "commit-message"` : Commits the changes to git, make sure commit message are not empty.
+6. `git push -u  origin main` : Uploads current files to the repository at the main branch.
 
 ## Branch
 Branch is an environment where code can be written or read from , it helps to divide your live code base with a testing one.
