@@ -69,9 +69,11 @@ logs/
 ## VS Code. 
 You can remotely access code from anywhere around the world by connecting to a remote repository either via the VS Code client or [web]("https://vscode.dev").
 
-Download the [remote repo extension]("https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories"). Select your platform and enjoy !
+Download the [remote repo extension]("https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories"). 
+An blue icon will appear on the bottom left left of your screen. Click on it and thenSelect your platform and enjoy !
 
 VS Code also shows an Icon beside your file to display :
 - <span style ="color:yellow"> M </span> if a file is modified
 - <span style ="color:green">U </span> if a file is untracked 
 - <span style="color:red"> D </span> with the name strike-through if a file is removed or renamed.
+lmao
