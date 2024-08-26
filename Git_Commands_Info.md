@@ -66,6 +66,9 @@ logs/
 ```
 > In VS Code you will find that the file in the explorer tab is greyed out.
 
+If you accidentally added a file / folder that you did not want git to track,add the file to .gitignore and then type the following command.
+`git rm --cached <name of file/folder`
+
 ## VS Code. 
 You can remotely access code from anywhere around the world by connecting to a remote repository either via the VS Code client or [web]("https://vscode.dev").
 
