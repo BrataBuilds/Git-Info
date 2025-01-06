@@ -1,4 +1,4 @@
-This is the first even repo I ever created on github and to put it to some use. I will be storing a git commands cheat sheet and a markdown cheat sheet to help me improve my workflow on how 
+This is the first even repo I ever created on github and to put it to some use, I will be storing a git commands cheat sheet and a markdown cheat sheet to help me improve my workflow on how 
 - git works
 - github works
 - how to make good documentation using markdown.
