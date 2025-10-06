@@ -3,6 +3,8 @@ This is the first even repo I ever created on github and to put it to some use, 
 - github works
 - how to make good documentation using markdown.
 
+I've installed Git Lens on VS Code to improve Git integration.
+
 I've downloaded the following VS-Code extensions to aid in previewing and editing Markdown files :
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
   In my opinion a must have for easy shortcuts and convenience.
